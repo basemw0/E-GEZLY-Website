@@ -7,6 +7,7 @@ Welcome to the **Ticket Reservation Website** – a user-friendly platform for b
 ## 🚀 Features
 
 ✅ **User Authentication** – Secure sign-in to store user details.
+
 ✅ **Event Browsing** – Explore upcoming matches and cinema screenings.
 ✅ **Ticket Booking** – Seamless seat selection and booking system.
 ✅ **Receipt Generation** – Instant ticket summary with total cost breakdown.
