@@ -49,15 +49,22 @@ Welcome to the **Ticket Reservation Website** – a user-friendly platform for b
 
 ### 🔹 Key JavaScript Files
 🛠️ **Webpage1.js** – Handles navigation.
+
 🛠️ **Webpage2.js** – Manages form validation & user storage.
+
 🛠️ **Webpage4.js** – Match ticket booking logic.
+
 🛠️ **Webpage6.js** – Retrieves & displays ticket data.
+
 🛠️ **Webpage8.js** – Validates **manager login**.
+
 🛠️ **Webpage9.js** – Displays ticket counts.
+
 🛠️ **Webpage10.js** – Generates user data table dynamically.
 
 ### 🎨 Assets 
 🎬 Movie posters, **sports team logos**, and **video trailers**.
+
 📸 Background images for **sports & cinema events**.
 
 ---
