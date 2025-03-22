@@ -115,11 +115,17 @@ Welcome to the **Ticket Reservation Website** – a user-friendly platform for b
 
 ## 🚀 Potential Improvements
 🔹 **Database Integration** – Replace `localStorage` with **MySQL** or **MongoDB** for better scalability.
+
 🔹 **User Authentication System** – Implement **JWT or OAuth** for secure login.
+
 🔹 **Dynamic Pricing** – Allow dynamic ticket pricing based on demand.
+
 🔹 **Email Confirmation** – Send booking confirmations via email.
+
 🔹 **Seat Map Visualization** – Improve cinema booking with a graphical seat map.
+
 🔹 **Payment Integration** – Add online payment options like **PayPal, Stripe, or credit cards**.
+
 🔹 **Admin Panel Enhancements** – Include advanced **analytics and reports** for better management.
 
 ---
