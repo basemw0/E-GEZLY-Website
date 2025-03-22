@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+  />
+    <title>Movie booking</title>
+    <style>
+        body {
+            display: unset;
+        }
+      
+    </style>
+</head>
+<body>
+    <nav id="siu">
+        <a href="Webpage1.html"><span>EحGEZLY</span> Cinema</a>
+        <a href="Webpage4.html"><span>Matches</span> </a>
+        <a href="Webpage6.html"><span>Receipt</span> </a>
+    </nav>
+    
+  
+
+    <div class="cards">
+        <a href="Movie.html" class="card">
+            <img src="Sheko.jpg" alt="">
+        </a>
+        <a href="Movie-2.html" class="card">
+            <img src="Movie-2.jpg" alt="">
+        </a>
+        <a href="Movie-3.html" class="card">
+            <img src="Movie-3.jpg" alt="">
+        </a>
+    </div>
+    <button id="checkout1" onclick="checkout()">Checkout</button>
+    <script>
+      function checkout() {
+        try {
+          // Define the value to be stored
+          var countcinemas = localStorage.getItem("countm");
+          var countcinemas1 = localStorage.getItem("countm1");
+          var countcinemas2 = localStorage.getItem("countm2");
+          var countcinemas = parseInt(countcinemas);
+          var countcinemas1 = parseInt(countcinemas1);
+          var countcinemas2 = parseInt(countcinemas2);
+          var countcinemass = countcinemas + countcinemas1 + countcinemas2;
+          countcinemass = parseInt(countcinemass);
+          localStorage.setItem("countcinemass", countcinemass);
+          console.log(
+            "Value successfully stored in local storage:",
+            countcinemass
+          );
+        } catch (error) {
+          // Handle any errors that occur during the storage process
+          console.error("Error storing value in local storage:", error);
+        }
+        alert(
+          "tickets registered successfully ... Choose matches page or receipt page"
+        );
+        var remainingtickets1 = 39 - countcinemas;
+        var remainingtickets2 = 39 - countcinemas1;
+        var remainingtickets3 = 39 - countcinemas2;
+
+        localStorage.setItem("remainingtickets1", remainingtickets1);
+        localStorage.setItem("remainingtickets2", remainingtickets2);
+        localStorage.setItem("remainingtickets3", remainingtickets3);
+      }
+    </script>
+
+    
+</body>
+</html>
