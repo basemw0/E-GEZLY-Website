@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="Webpage8.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <script src="Webpage8.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <input type="checkbox" id="btn" hidden />
+      <label for="btn" class="menu-btn">
+        <i class="fas fa-bars"></i>
+        <i class="fas fa-times"></i>
+      </label>
+      <nav id="sidebar">
+        <div class="title">Side Menu</div>
+        <ul class="list-items">
+          <li>
+            <a href="Webpage1.html"><i class="fas fa-home"></i>Home</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <br />
+
+    <p>Enter the password to access data tables</p>
+
+    <input type="password" id="password" name="password" />
+
+    <input
+      type="button"
+      value="Enter Password"
+      id="enter"
+      onclick="checkPass()"
+    />
+    <br />
+    <input type="button" value="Tickets" id="tickets" onclick="goToTickets()" />
+
+    <input type="button" value="Users" id="users" onclick="goToUsers()" />
+  </body>
+</html>

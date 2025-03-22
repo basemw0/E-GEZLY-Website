@@ -1,0 +1,145 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ccc;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#si {
+  width: 90%;
+  height: 70px;
+  margin: auto;
+  background: rgb(184, 184, 184, .1);
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  gap: 30px;
+
+}
+#checkout1{
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: 1200px;
+  padding: 4px 10px;
+  border-radius: 10px;
+  border: 2px solid #65fd7c;
+  color: #ffffff;
+  background: none;
+  font-size: 30px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: .3s linear;
+}
+#checkout1:hover{
+  background: #65fd8d;
+}
+
+
+#si a,button {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+#si a span {
+  color: skyblue;
+}
+#checkout {
+  margin-right: 400px;
+  margin-left: 1200px;
+}
+#cinema,
+#receipt {
+  padding: 10px;
+}
+.container1 {
+  background-color: rgb(78, 75, 75);
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 470px;
+  margin: left;
+
+  margin-left: 600px;
+  margin-top: 70px;
+}
+.container2 {
+  background-color: rgb(78, 75, 75);
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 470px;
+  margin: left;
+
+  margin-left: 600px;
+  margin-top: 70px;
+}
+.container3 {
+  background-color: rgb(78, 75, 75);
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 470px;
+  margin: left;
+
+  margin-left: 600px;
+  margin-top: 70px;
+}
+.container4 {
+  background-color: rgb(78, 75, 75);
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 470px;
+  margin: left;
+
+  margin-left: 600px;
+  margin-top: 70px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.team {
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+}
+.team img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.vs {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+.info > div {
+  display: flex;
+  align-items: center;
+}
+.info img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+#available1,
+#available2,
+#available3 {
+  color: rgb(6, 163, 6);
+}
+.book-btn {
+  background-color: #a7ada7;
+  color: rgb(255, 255, 255);
+  font-size: 1.2em;
+  padding: 10px 20px;
+  text-align: center;
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+

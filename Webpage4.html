@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="Webpage4.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <script src="Webpage4.js"></script>
+  </head>
+
+  <body background="manustad.jpg">
+    <nav id="si">
+      <a href="Webpage1.html"><span>EحGEZLY</span> Matches</a>
+      <a href="Menu.html"><span>Cinema</span> </a>
+      <a href="Webpage6.html"><span>Receipt</span> </a>
+      
+
+  </nav>
+  
+    <div class="container1">
+      <div class="header">
+        <div class="team">
+          <img src="zamalk.png" alt="Zamalek" />
+          <strong>Zamalek Fc</strong>
+        </div>
+        <div class="vs">VS</div>
+        <div class="team">
+          <strong>Tanta Fc</strong>
+          <img src="tanta.png" alt="Tanta" />
+        </div>
+      </div>
+      <div class="info">
+        <div>
+          <img src="stadium.svg" alt="Tyb" />
+          <span><b>Cairo Stadium</b></span>
+        </div>
+        <div>
+          <img src="calendar.svg" alt="Tre5" />
+          <span>Fri 26 Apr 2024<br />Time: 05:00 PM</span>
+        </div>
+      </div>
+      <div class="info">
+        <div><b>Tournament:</b> Friendlies</div>
+        <div class="remaining-tickets1">
+          Remaining Tickets: <span id="remainingcount1">7</span>
+        </div>
+      </div>
+      <div class="info">
+        <div><b>Group:</b> Day 5</div>
+        <div id="available1">● Available</div>
+      </div>
+      <button id="book-btn-1" class="book-btn" onclick="bookTicket1()">
+        E7gzly
+      </button>
+    </div>
+
+    <div class="container2">
+      <div class="header">
+        <div class="team">
+          <img src="AlAhly.png" alt="Ahly" />
+          <strong>El Ahly Fc</strong>
+        </div>
+        <div class="vs">VS</div>
+        <div class="team">
+          <strong>Barcelona Fc</strong>
+          <img src="barca.png" alt="Barca" />
+        </div>
+      </div>
+      <div class="info">
+        <div>
+          <img src="stadium.svg" alt="Tyb" />
+          <span> <b>Camp nou</b> </span>
+        </div>
+        <div>
+          <img src="calendar.svg" alt="Tre5" />
+          <span>Tue 30 Apr 2024<br />Time: 09:00 PM</span>
+        </div>
+      </div>
+      <div class="info">
+        <div><b>Tournment :</b> Friendlies</div>
+        <div class="remaining-tickets2">
+          Remaining Tickets: <span id="remainingcount2"></span>
+        </div>
+      </div>
+      <div class="info">
+        <div><b>Group:</b> Day 6</div>
+        <div id="available2">● Available</div>
+      </div>
+      <button id="book-btn-2" class="book-btn" onclick="bookTicket2()">
+        E7gzly
+      </button>
+    </div>
+    <div class="container3">
+      <div class="header">
+        <div class="team">
+          <img src="manu.png" alt="Man united" />
+          <strong>Man united Fc </strong>
+        </div>
+        <div class="vs">VS</div>
+        <div class="team">
+          <strong>Tanta Fc</strong>
+          <img src="tanta.png" alt="Tanta" />
+        </div>
+      </div>
+      <div class="info">
+        <div>
+          <img src="stadium.svg" alt="Tyb" />
+          <span> <b>Cairo Stadium</b> </span>
+        </div>
+        <div>
+          <img src="calendar.svg" alt="Tre5" />
+          <span>Thu 2 May 2024<br />Time: 10:00 PM</span>
+        </div>
+      </div>
+      <div class="info">
+        <div><b>Tournment :</b> Friendlies</div>
+        <div class="remaining-tickets3">
+          Remaining Tickets: <span id="remainingcount3"></span>
+        </div>
+      </div>
+      <div class="info">
+        <div><b>Group:</b> Day 7</div>
+        <div id="available3">● Available</div>
+      </div>
+      <button id="book-btn-3" class="book-btn" onclick="bookTicket3()">
+        E7gzly
+      </button>
+    </div>
+    <script>
+      var cnt1 = countmatches1;
+      var remainingcount1 = document.getElementById("remainingcount1");
+      remainingcount1.textContent = cnt1;
+
+      var cnt2 = countmatches2;
+      var remainingcount2 = document.getElementById("remainingcount2");
+      remainingcount2.textContent = cnt2;
+
+      var cnt3 = countmatches3;
+      var remainingcount3 = document.getElementById("remainingcount3");
+      remainingcount3.textContent = cnt3;
+    </script>
+    <button id="checkout1" onclick="checkout()">Checkout</button>
+  </body>
+</html>

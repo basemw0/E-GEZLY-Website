@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="Webpage10.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <script src="Webpage10.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <input type="checkbox" id="btn" hidden />
+        <label for="btn" class="menu-btn">
+          <i class="fas fa-bars"></i>
+          <i class="fas fa-times"></i>
+        </label>
+        <nav id="sidebar">
+          <div class="title">Side Menu</div>
+          <ul class="list-items">
+            <li>
+              <a href="#"><i class="fas fa-home"></i>Home</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-user"></i>About us</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-envelope"></i>Contact us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <br>
+      <table id="user">
+        <caption>Users Data</caption>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone no</th>
+            <th>Password</th>
+            
+            
+        </tr>
+    </thead>
+    <tbody>
+       
+        
+    </tbody>
+    </table>
+    
+    
+<input type="button" value="Tickets" class="tickets" onclick="goToTickets()" />
+<input type="button" value="Home" id="home" onclick="goToHome()" />
+
+    <script>
+        var match = countmatches;
+var matchn = document.getElementById("matchn");
+matchn.textContent = match;
+
+var cinema = countcinemas;
+var cineman = document.getElementById("cineman");
+cineman.textContent =cinema ;
+    </script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="Webpage2.css"/>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/>
+   <script src="Webpage2.js">
+    </script>
+<title> My first html page </title>
+</head>
+<body >
+  <div class="wrapper">
+    <input type="checkbox" id="btn" hidden />
+    <label for="btn" class="menu-btn">
+      <i class="fas fa-bars"></i>
+      <i class="fas fa-times"></i>
+    </label>
+    <nav id="sidebar">
+      <div class="title">Side Menu</div>
+      <ul class="list-items">
+        <li>
+          <a href="Webpage1.html"><i class="fas fa-home"></i>Home</a>
+        </li>
+       
+      </ul>
+    </nav>
+  </div>
+  <br>
+      <form
+        id="myForm"
+        method="GET"
+        action="Webpage3.html"
+        >
+  
+
+         <fieldset>
+          <legend> user information
+             </legend>
+    
+  <div>
+        <table>
+          <table>
+            <tr>
+              <td><label for="username">User name:</label></td>
+              <td><input type="text" id="username" name="username" required /></td>
+            </tr>
+            <tr>
+              <td><label for="email">Email:</label></td>
+              <td><input type="email" id="email" name="email" required /></td>
+            </tr>
+            <tr>
+              <td><label for="phone">Phone:</label></td>
+              <td><input type="tel" id="phone" name="phone" required /></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" id="password" name="password" required></td>
+              </tr>
+          </table>
+          <br>
+        <button type="submit" class="buttons" onclick="handleSubmit()">Submit</button>
+        <input type = "button" value = "Reset" class="buttons" onclick="fun()"/>
+        </form>
+      </fieldset>
+</body>
+</html>

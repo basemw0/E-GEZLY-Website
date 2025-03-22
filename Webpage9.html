@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="Webpage9.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <script src="Webpage9.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+        <input type="checkbox" id="btn" hidden />
+        <label for="btn" class="menu-btn">
+          <i class="fas fa-bars"></i>
+          <i class="fas fa-times"></i>
+        </label>
+        <nav id="sidebar">
+          <div class="title">Side Menu</div>
+          <ul class="list-items">
+            <li>
+              <a href="#"><i class="fas fa-home"></i>Home</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-user"></i>About us</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-envelope"></i>Contact us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <br>
+      
+<table id="cinemas">
+    <caption>Cinemas Tickets</caption>
+      <tr>
+        <th>Name</th>
+        <th>Place</th>
+        <th>Number of Tickets</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>Sheqo</td>
+        <td>May 3, 2024</td>
+        <td><span id="ticketsc1" >39</span></td>
+        
+    </tr>
+    <tr>
+        <td>Fasel mn el la7zat el lziza</td>
+        <td>May 5, 2024</td>
+        <td><span id="ticketsc2" >39</span></td>
+       
+    </tr>
+    <tr>
+        <td>Godzilla</td>
+        <td>May 6, 2024</td>
+        <td><span id="ticketsc3">39</span></td>
+        
+    </tr>
+    
+    
+</tbody>
+</table>
+
+<table id="matches">
+    <caption>Matches Tickets</caption>
+    <tr>
+      <th>Name</th>
+      <th>Date</th>
+      <th>Time</th>
+      <th>Place</th>
+      <th>Number of Tickets</th>
+  </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>Zamalek vs Tanta</td>
+        <td>May 3, 2024</td>
+        <td>5:00 PM</td>
+        <td>Cairo Stadium</td>
+        <td><span id="tickets1" >100</span></td>
+    </tr>
+    <tr>
+        <td>ElAhly vs Barcelona</td>
+        <td>May 4, 2024</td>
+        <td>9:00 PM</td>
+        <td>Cairo Stadium</td>
+        <td><span id="tickets2" data-value="150">150</span></td>
+    </tr>
+    <tr>
+        <td>Man vs Tanta</td>
+        <td>May 10, 2024</td>
+        <td>10:00 PM</td>
+        <td>Cairo Stadium</td>
+        <td><span id="tickets3" data-value="150">150</span></td>
+    </tr>
+  </tbody>
+  
+</table>
+<br>
+<input type="button" value="Users" id="users" onclick="goToUsers()" />
+<input type="button" value="Home" id="home" onclick="goToHome()" />
+<script>
+var countt1 = match1s;
+var tickets1 = document.getElementById("tickets1");
+tickets1.textContent = countt1;
+
+var countt2 = match2s;
+var tickets2 = document.getElementById("tickets2");
+tickets2.textContent = countt2;
+
+var countt3 = match3s;
+var tickets3 = document.getElementById("tickets3");
+tickets3.textContent = countt3;
+
+
+var countc1 = remainingcinematickets1;
+var ticketc1 = document.getElementById("ticketsc1");
+ticketc1.textContent = countc1;
+
+var countc2 = remainingcinematickets2;
+var ticketc2 = document.getElementById("ticketsc2");
+ticketc2.textContent = countc2;
+
+var countc3 = remainingcinematickets3;
+var ticketc3 = document.getElementById("ticketsc3");
+ticketc3.textContent = countc3;
+
+</script>
+  </body>
+</html>
