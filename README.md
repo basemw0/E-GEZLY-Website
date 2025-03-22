@@ -7,11 +7,17 @@ Welcome to the **Ticket Reservation Website** – a user-friendly platform for b
 ## 🚀 Features
 
 ✅ **User Authentication** – Secure sign-in to store user details.
+
 ✅ **Event Browsing** – Explore upcoming matches and cinema screenings.
+
 ✅ **Ticket Booking** – Seamless seat selection and booking system.
+
 ✅ **Receipt Generation** – Instant ticket summary with total cost breakdown.
+
 ✅ **Manager Access** – Password-protected section to monitor availability & users.
+
 ✅ **Responsive Design** – Optimized for desktop and mobile users.
+
 ✅ **Local Storage Integration** – Data persistence using `localStorage`.
 
 ---
@@ -20,15 +26,25 @@ Welcome to the **Ticket Reservation Website** – a user-friendly platform for b
 
 ### 🔹 Core Pages
 📌 **Webpage1.html** - Home page with a **video background** and entry options.
+
 📌 **Webpage2.html** - User **sign-in page** (stores data in `localStorage`).
+
 📌 **Webpage3.html** - Event selection (**sports vs. cinema**).
+
 📌 **Webpage4.html** - Match booking (**choose and reserve seats**).
+
 📌 **Menu.html** - **Cinema ticket booking** (seat selection for "Sheqo").
+
 📌 **Movie-2.html / Movie-3.html** - Additional cinema booking pages.
+
 📌 **Webpage6.html** - **Receipt page** (displays bookings and total cost).
+
 📌 **Webpage7.html** - **Thank You page** after successful booking.
+
 📌 **Webpage8.html** - **Manager Login** (password: "0000").
+
 📌 **Webpage9.html** - **Manager Dashboard** (ticket availability overview).
+
 📌 **Webpage10.html** - **User Data Panel** (stored user information).
 
 ### 🔹 Key JavaScript Files
