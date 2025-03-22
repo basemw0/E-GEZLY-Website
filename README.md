@@ -138,5 +138,5 @@ Contributions are welcome! Feel free to:
 
 ---
 
-**Made with ❤️ by [Your Name]**
-
+## Author
+- [Basem Walid](https://github.com/basemw0)
