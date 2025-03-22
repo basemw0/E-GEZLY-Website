@@ -132,9 +132,9 @@ Welcome to the **Ticket Reservation Website** – a user-friendly platform for b
 
 ## 🤝 Contributing
 Contributions are welcome! Feel free to:
-- **Fork the repo** 🎭
-- **Report issues** 🛠️
-- **Submit pull requests** 🚀
+- **Fork the repo** 
+- **Report issues** 
+- **Submit pull requests** 
 
 ---
 
